@@ -55,10 +55,10 @@ function Question() {
     setTimeout(() => {
       setFadeOut(true);
       document.body.classList.add("fade-to-black");
-    }, 2000);
+    }, 3000);
     setTimeout(() => {
       navigate('/flowers');
-    }, 3000);
+    }, 4000);
   }
 
   const noStyle = {
@@ -76,7 +76,7 @@ function Question() {
   const containerVariants = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
-    exit: { opacity: 0, transition: { duration: 0.5 } } // Fade-out transition
+    exit: { opacity: 0, transition: { duration: 1 } } // Fade-out transition
   };
 
   return (

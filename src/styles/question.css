@@ -172,7 +172,7 @@ button:hover {
     font-size: 4rem;
     color: #F9f1cc;
     position: absolute;
-    top: 46%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -193,7 +193,7 @@ button:hover {
     font-size: 4rem;
     color: #F9f1cc;
     position: absolute;
-    top: 62%;
+    top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
